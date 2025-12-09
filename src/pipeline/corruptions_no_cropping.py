@@ -36,7 +36,7 @@ os.environ["LD_LIBRARY_PATH"] = f"{libdir}:{prev}"
 LOGS_DIR = "./logs"
 
 # CODE CITATIONS:
-# the classes for Corruptions come from https://github.com/hendrycks/robustness/blob/master/ImageNet-C/imagenet_c/imagenet_c/corruptions.py
+# the classes and functions for Corruptions come from https://github.com/hendrycks/robustness/blob/master/ImageNet-C/imagenet_c/imagenet_c/corruptions.py
 
 #### corruption helpers ####
 

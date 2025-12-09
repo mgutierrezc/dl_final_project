@@ -105,3 +105,16 @@ bash ./scripts/lead_corruption_runs_visda_sotta.sh
 bash ./scripts/lead_corruption_runs_visda_stamp.sh
 bash ./scripts/lead_corruption_runs_visda_gmm.sh
 ```
+
+# Code Citations
+
+They have been included in every script according to the resource used, but will also be summarized below
+
+For Pytorch:
+Paszke, A., Gross, S., Massa, F., Lerer, A., Bradbury, J., Chanan, G., Killeen, T., Lin, Z., Gimelshein, N., Antiga, L., Desmaison, A., & Chintala, S. (2019). PyTorch: An imperative style, high-performance deep learning library. arXiv preprint arXiv:1912.01703. https://arxiv.org/abs/1912.01703
+
+The classes for the TTA come from https://github.com/yuyongcan/STAMP/tree/master
+The only TTA class that has a separate source is GMM and comes from https://github.com/pascalschlachter/GMM/blob/main/adaptation.py
+The Unida models are based on the code from https://github.com/ispc-lab/LEAD and https://github.com/ispc-lab/GLC
+The classes and functions for Corruptions come from https://github.com/hendrycks/robustness/blob/master/ImageNet-C/imagenet_c/imagenet_c/corruptions.py
+The functions for GMM related tasks come from https://github.com/pascalschlachter/GMM/blob/main/adaptation.py
