@@ -1,0 +1,4 @@
+optim:
+  steps: 1 # number of steps per batch
+unida_tta:
+  rho: 0.05

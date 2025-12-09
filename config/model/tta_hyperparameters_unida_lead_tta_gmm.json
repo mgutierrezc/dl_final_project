@@ -1,0 +1,760 @@
+{
+  "lead": {
+    "office": {
+      "osda": {
+        "w2d": {
+          "gmm": {
+            "lr": 0.00025,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 3.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "a2d": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 1.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "w2a": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 4.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "d2a": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 5.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "a2w": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 4.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "d2w": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 5.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        }
+      },
+      "opda": {
+        "w2d": {
+          "gmm": {
+            "lr": 0.0001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 1.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "a2d": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 1.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "w2a": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 5.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "d2a": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 5.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "a2w": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 2.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "d2w": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 3.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 16.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        }
+      },
+      "pda": {
+        "w2d": {
+          "gmm": {
+            "lr": 0.0001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 1.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 16.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "w2a": {
+          "gmm": {
+            "lr": 0.0001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 1.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 16.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "d2a": {
+          "gmm": {
+            "lr": 0.005,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 4.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "a2d": {
+          "gmm": {
+            "lr": 0.0001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 1.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 16.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "a2w": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 2.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 32.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "d2w": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 2.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 16.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        }
+      }
+    },
+    "officehome": {
+      "opda": {
+        "ar2re": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "pr2re": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "cl2re": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "re2pr": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "ar2pr": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "cl2ar": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "re2ar": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 32.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "pr2ar": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "cl2pr": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "pr2cl": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "ar2cl": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "re2cl": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        }
+      },
+      "osda": {
+        "ar2re": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "pr2re": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 3.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "cl2re": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "re2pr": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "ar2pr": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "cl2pr": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "cl2ar": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 2.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "re2cl": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "pr2ar": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "pr2cl": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 3.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "re2ar": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "ar2cl": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 3.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        }
+      },
+      "pda": {
+        "cl2re": {
+          "gmm": {
+            "lr": 0.0001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 24.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "ar2re": {
+          "gmm": {
+            "lr": 0.0001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 3.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 24.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "pr2re": {
+          "gmm": {
+            "lr": 0.005,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "re2pr": {
+          "gmm": {
+            "lr": 0.00025,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 32.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "ar2pr": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 3.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "re2ar": {
+          "gmm": {
+            "lr": 0.005,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 24.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "pr2ar": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 24.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "cl2ar": {
+          "gmm": {
+            "lr": 0.0001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 5.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 24.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "cl2pr": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 24.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "ar2cl": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "re2cl": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 3.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "pr2cl": {
+          "gmm": {
+            "lr": 0.01,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 8.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 24.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        }
+      }
+    },
+    "domainnet": {
+      "opda": {
+        "p2r": {
+          "gmm": {
+            "lr": 0.001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 50.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "p2s": {
+          "gmm": {
+            "lr": 0.001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 50.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 48.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "s2r": {
+          "gmm": {
+            "lr": 0.001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 50.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "r2s": {
+          "gmm": {
+            "lr": 0.001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 50.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "s2p": {
+          "gmm": {
+            "lr": 0.001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 10.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        },
+        "r2p": {
+          "gmm": {
+            "lr": 0.001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 50.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        }
+      }
+    },
+    "visda": {
+      "opda": {
+        "t2v": {
+          "gmm": {
+            "lr": 0.001,
+            "bs": 64.0,
+            "lam": 1.0,
+            "N_init": 50.0,
+            "p_reject": 0.5,
+            "red_feature_dim": 64.0,
+            "temperature": 0.1,
+            "augmentation": 1.0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "tasc": {
+    "office": {
+      "opda": {
+        "w2d": {
+          "stamp": {
+            "lr": 1.0,
+            "rho": 0.05,
+            "alpha": 0.4
+          }
+        },
+        "a2d": {
+          "stamp": {
+            "lr": 1.0,
+            "rho": 0.05,
+            "alpha": 0.45
+          }
+        },
+        "a2w": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.55
+          }
+        },
+        "w2a": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.2
+          }
+        },
+        "d2w": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.7
+          }
+        },
+        "d2a": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.6
+          }
+        }
+      },
+      "osda": {
+        "w2d": {
+          "stamp": {
+            "lr": 1.0,
+            "rho": 0.05,
+            "alpha": 0.2
+          }
+        },
+        "a2d": {
+          "stamp": {
+            "lr": 5e-05,
+            "rho": 0.05,
+            "alpha": 0.55
+          }
+        },
+        "a2w": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.55
+          }
+        },
+        "d2w": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.75
+          }
+        },
+        "w2a": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.7
+          }
+        },
+        "d2a": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.75
+          }
+        }
+      },
+      "pda": {
+        "w2d": {
+          "stamp": {
+            "lr": 5e-05,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        },
+        "a2d": {
+          "stamp": {
+            "lr": 5e-05,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        },
+        "d2w": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.5
+          }
+        },
+        "d2a": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.7
+          }
+        },
+        "w2a": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.85
+          }
+        },
+        "a2w": {
+          "stamp": {
+            "lr": 0.05,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        }
+      }
+    },
+    "officehome": {
+      "opda": {
+        "ar2re": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.75
+          }
+        },
+        "pr2re": {
+          "stamp": {
+            "lr": 5e-05,
+            "rho": 0.05,
+            "alpha": 0.75
+          }
+        },
+        "cl2re": {
+          "stamp": {
+            "lr": 0.05,
+            "rho": 0.05,
+            "alpha": 0.2
+          }
+        },
+        "re2ar": {
+          "stamp": {
+            "lr": 0.02,
+            "rho": 0.05,
+            "alpha": 0.65
+          }
+        },
+        "pr2ar": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.35
+          }
+        },
+        "cl2ar": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.85
+          }
+        },
+        "cl2pr": {
+          "stamp": {
+            "lr": 0.01,
+            "rho": 0.05,
+            "alpha": 0.3
+          }
+        },
+        "ar2pr": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.25
+          }
+        },
+        "re2pr": {
+          "stamp": {
+            "lr": 0.05,
+            "rho": 0.05,
+            "alpha": 0.4
+          }
+        },
+        "pr2cl": {
+          "stamp": {
+            "lr": 0.02,
+            "rho": 0.05,
+            "alpha": 0.85
+          }
+        },
+        "ar2cl": {
+          "stamp": {
+            "lr": 0.005,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        },
+        "re2cl": {
+          "stamp": {
+            "lr": 0.02,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        }
+      },
+      "osda": {
+        "ar2re": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        },
+        "cl2re": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.6
+          }
+        },
+        "pr2re": {
+          "stamp": {
+            "lr": 0.05,
+            "rho": 0.05,
+            "alpha": 0.6
+          }
+        },
+        "ar2pr": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.75
+          }
+        },
+        "cl2pr": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.45
+          }
+        },
+        "re2ar": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.45
+          }
+        },
+        "re2pr": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.75
+          }
+        },
+        "pr2ar": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.45
+          }
+        },
+        "cl2ar": {
+          "stamp": {
+            "lr": 0.05,
+            "rho": 0.05,
+            "alpha": 0.7
+          }
+        },
+        "pr2cl": {
+          "stamp": {
+            "lr": 0.05,
+            "rho": 0.05,
+            "alpha": 0.85
+          }
+        },
+        "re2cl": {
+          "stamp": {
+            "lr": 0.05,
+            "rho": 0.05,
+            "alpha": 0.75
+          }
+        },
+        "ar2cl": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        }
+      },
+      "pda": {
+        "ar2re": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.65
+          }
+        },
+        "pr2re": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.6
+          }
+        },
+        "cl2re": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.2
+          }
+        },
+        "cl2ar": {
+          "stamp": {
+            "lr": 0.001,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        },
+        "re2ar": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.25
+          }
+        },
+        "pr2ar": {
+          "stamp": {
+            "lr": 0.01,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        },
+        "ar2pr": {
+          "stamp": {
+            "lr": 1.0,
+            "rho": 0.05,
+            "alpha": 0.25
+          }
+        },
+        "re2pr": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.55
+          }
+        },
+        "cl2pr": {
+          "stamp": {
+            "lr": 1.0,
+            "rho": 0.05,
+            "alpha": 0.2
+          }
+        },
+        "pr2cl": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.3
+          }
+        },
+        "re2cl": {
+          "stamp": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        },
+        "ar2cl": {
+          "stamp": {
+            "lr": 1.0,
+            "rho": 0.05,
+            "alpha": 0.2
+          }
+        }
+      }
+    },
+    "domainnet": {
+      "opda": {
+        "s2r": {
+          "stamp": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        },
+        "p2r": {
+          "stamp": {
+            "lr": 0.05,
+            "rho": 0.05,
+            "alpha": 0.5
+          }
+        },
+        "p2s": {
+          "stamp": {
+            "lr": 0.0001,
+            "rho": 0.05,
+            "alpha": 0.3
+          }
+        },
+        "r2s": {
+          "stamp": {
+            "lr": 0.02,
+            "rho": 0.05,
+            "alpha": 0.4
+          }
+        },
+        "s2p": {
+          "stamp": {
+            "lr": 0.001,
+            "rho": 0.05,
+            "alpha": 0.8
+          }
+        },
+        "r2p": {
+          "stamp": {
+            "lr": 0.002,
+            "rho": 0.05,
+            "alpha": 0.4
+          }
+        }
+      }
+    },
+    "visda": {
+      "opda": {
+        "t2v": {
+          "stamp": {
+            "lr": 0.05,
+            "rho": 0.05,
+            "alpha": 0.55
+          }
+        }
+      }
+    }
+  }
+}

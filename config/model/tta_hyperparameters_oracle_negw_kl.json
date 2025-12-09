@@ -1,0 +1,699 @@
+{
+  "tasc": {
+    "office": {
+      "opda": {
+        "w2d": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.005,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "a2d": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0005,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "a2w": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "w2a": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "d2w": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "d2a": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0005,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        }
+      },
+      "osda": {
+        "w2d": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 5e-05,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "a2d": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "a2w": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "d2w": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "d2a": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "w2a": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        }
+      },
+      "pda": {
+        "w2d": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 5e-05,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "a2d": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.01,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "d2w": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.005,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "w2a": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "d2a": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "a2w": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.005,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        }
+      }
+    },
+    "officehome": {
+      "opda": {
+        "ar2re": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 5e-05,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "pr2re": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 5e-05,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "cl2re": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "re2ar": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "cl2ar": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "pr2ar": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0005,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "cl2pr": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 5e-05,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "ar2pr": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 5e-05,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "re2pr": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 5e-05,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "pr2cl": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 5e-05,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "ar2cl": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "re2cl": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        }
+      },
+      "osda": {
+        "ar2re": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "cl2re": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "pr2re": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 5e-05,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "cl2pr": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0005,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "ar2pr": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0005,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "re2pr": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "re2ar": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "pr2ar": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0005,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "cl2ar": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "pr2cl": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "re2cl": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "ar2cl": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        }
+      },
+      "pda": {
+        "ar2re": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "cl2re": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.005,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "pr2re": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "re2ar": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "cl2ar": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 5e-05,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "pr2ar": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.005,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "ar2pr": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "re2pr": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "cl2pr": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "pr2cl": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.002,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "ar2cl": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "re2cl": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        }
+      }
+    },
+    "domainnet": {
+      "opda": {
+        "s2r": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "p2r": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "r2s": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "r2p": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "p2s": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        },
+        "s2p": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 0.0001,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        }
+      }
+    },
+    "visda": {
+      "opda": {
+        "t2v": {
+          "oracle_negw_kl": {
+            "beta": 0.9,
+            "wd": 0.0,
+            "lr": 5e-05,
+            "neg_mem_weight": 1,
+            "kl_weight": 1,
+            "params_oracle": "norm_only",
+            "bs": 64.0
+          }
+        }
+      }
+    }
+  }
+}

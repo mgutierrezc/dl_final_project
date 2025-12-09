@@ -1,0 +1,8 @@
+torch
+hydra-core
+transformers
+numpy
+requests
+matplotlib
+wandb
+datasets

@@ -1,0 +1,4 @@
+optim:
+  steps: 1 # number of steps per batch
+owttt:
+  rho: 0.05

@@ -1,0 +1,92 @@
+{
+  "tasc": {
+    "officehome": {
+      "pda": {
+        "ar2re": {
+          "unida_tta": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "kl": 1.4
+          }
+        },
+        "pr2re": {
+          "unida_tta": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "kl": 1.0
+          }
+        },
+        "cl2re": {
+          "unida_tta": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "kl": 1.4
+          }
+        },
+        "cl2ar": {
+          "unida_tta": {
+            "lr": 0.002,
+            "rho": 0.05,
+            "kl": 0.6
+          }
+        },
+        "re2ar": {
+          "unida_tta": {
+            "lr": 0.05,
+            "rho": 0.05,
+            "kl": 1.0
+          }
+        },
+        "pr2ar": {
+          "unida_tta": {
+            "lr": 0.02,
+            "rho": 0.05,
+            "kl": 1.2
+          }
+        },
+        "ar2pr": {
+          "unida_tta": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "kl": 1.4
+          }
+        },
+        "re2pr": {
+          "unida_tta": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "kl": 1.2
+          }
+        },
+        "cl2pr": {
+          "unida_tta": {
+            "lr": 1.0,
+            "rho": 0.05,
+            "kl": 0.8
+          }
+        },
+        "pr2cl": {
+          "unida_tta": {
+            "lr": 0.1,
+            "rho": 0.05,
+            "kl": 1.4
+          }
+        },
+        "re2cl": {
+          "unida_tta": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "kl": 0.8
+          }
+        },
+        "ar2cl": {
+          "unida_tta": {
+            "lr": 0.2,
+            "rho": 0.05,
+            "kl": 0.6
+          }
+        }
+      }
+    }
+  }
+}

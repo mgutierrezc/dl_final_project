@@ -1,0 +1,210 @@
+{
+  "tasc": {
+    "office": {
+      "opda": {
+        "w2d": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "a2d": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.2
+          }
+        },
+        "a2w": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "d2w": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "d2a": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.2
+          }
+        },
+        "w2a": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        }
+      },
+      "osda": {
+        "w2d": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "a2d": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.2
+          }
+        },
+        "a2w": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "d2w": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "w2a": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "d2a": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        }
+      },
+      "pda": {
+        "w2d": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "a2d": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "d2w": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "a2w": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "d2a": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        },
+        "w2a": {
+          "owttt": {
+            "ce_scale": 0.2,
+            "delta": 0.1,
+            "queue_length": 512,
+            "max_prototypes": 100,
+            "lr": 1e-05,
+            "bs": 64.0,
+            "da_scale": 0.1
+          }
+        }
+      }
+    }
+  }
+}
